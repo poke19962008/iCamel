@@ -7,13 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F05148B1B4A8ECA00F8FE40 /* MCNewCustomLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0514811B4A8ECA00F8FE40 /* MCNewCustomLayer.m */; };
+		8F05148C1B4A8ECA00F8FE40 /* MCNewCustomLayeredView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0514831B4A8ECA00F8FE40 /* MCNewCustomLayeredView.m */; };
+		8F05148D1B4A8ECA00F8FE40 /* MCPercentageDoughnutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0514861B4A8ECA00F8FE40 /* MCPercentageDoughnutView.m */; };
+		8F05148E1B4A8ECA00F8FE40 /* MCSliceLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0514881B4A8ECA00F8FE40 /* MCSliceLayer.m */; };
+		8F05148F1B4A8ECA00F8FE40 /* MCUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F05148A1B4A8ECA00F8FE40 /* MCUtil.m */; };
 		8F79BE4A1B47C13500F9EF5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F79BE491B47C13500F9EF5F /* AppDelegate.swift */; };
-		8F79BE4C1B47C13500F9EF5F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F79BE4B1B47C13500F9EF5F /* ViewController.swift */; };
 		8F79BE4F1B47C13500F9EF5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F79BE4D1B47C13500F9EF5F /* Main.storyboard */; };
 		8F79BE511B47C13500F9EF5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F79BE501B47C13500F9EF5F /* Assets.xcassets */; };
 		8F79BE541B47C13500F9EF5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F79BE521B47C13500F9EF5F /* LaunchScreen.storyboard */; };
 		8F79BE5F1B47C13500F9EF5F /* iCamelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F79BE5E1B47C13500F9EF5F /* iCamelTests.swift */; };
 		8F79BE6A1B47C13500F9EF5F /* iCamelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F79BE691B47C13500F9EF5F /* iCamelUITests.swift */; };
+		8F79BE781B47C4E500F9EF5F /* AttendanceOverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F79BE771B47C4E500F9EF5F /* AttendanceOverView.swift */; };
+		8F79BE7A1B47C7E400F9EF5F /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F79BE791B47C7E400F9EF5F /* Login.swift */; };
+		8F7DD8D31B48049D0076B6E4 /* AttendanceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7DD8D21B48049D0076B6E4 /* AttendanceCell.swift */; };
+		8F7DD8D61B4812090076B6E4 /* evarsity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7DD8D51B4812090076B6E4 /* evarsity.swift */; };
+		8FC2E3271B493E6100A632BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FC2E3261B493E6100A632BE /* Foundation.framework */; };
+		8FC2E3291B493E6E00A632BE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FC2E3281B493E6E00A632BE /* UIKit.framework */; };
+		8FC2E32B1B493E7A00A632BE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FC2E32A1B493E7A00A632BE /* CoreGraphics.framework */; };
+		8FC2E32D1B493E8300A632BE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FC2E32C1B493E8300A632BE /* QuartzCore.framework */; };
+		8FC2E3311B493F3800A632BE /* FeHourGlass.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC2E3301B493F3800A632BE /* FeHourGlass.m */; };
+		8FC2E3341B493F6600A632BE /* UIColor+flat.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC2E3331B493F6600A632BE /* UIColor+flat.m */; };
+		8FC2E3371B493F9400A632BE /* FXBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC2E3361B493F9400A632BE /* FXBlurView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +49,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8F05147F1B4A8ECA00F8FE40 /* MCCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCCore.h; sourceTree = "<group>"; };
+		8F0514801B4A8ECA00F8FE40 /* MCNewCustomLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCNewCustomLayer.h; sourceTree = "<group>"; };
+		8F0514811B4A8ECA00F8FE40 /* MCNewCustomLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCNewCustomLayer.m; sourceTree = "<group>"; };
+		8F0514821B4A8ECA00F8FE40 /* MCNewCustomLayeredView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCNewCustomLayeredView.h; sourceTree = "<group>"; };
+		8F0514831B4A8ECA00F8FE40 /* MCNewCustomLayeredView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCNewCustomLayeredView.m; sourceTree = "<group>"; };
+		8F0514841B4A8ECA00F8FE40 /* MCNewCustomLayeredView+MCCustomLayeredViewSubclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MCNewCustomLayeredView+MCCustomLayeredViewSubclass.h"; sourceTree = "<group>"; };
+		8F0514851B4A8ECA00F8FE40 /* MCPercentageDoughnutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCPercentageDoughnutView.h; sourceTree = "<group>"; };
+		8F0514861B4A8ECA00F8FE40 /* MCPercentageDoughnutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCPercentageDoughnutView.m; sourceTree = "<group>"; };
+		8F0514871B4A8ECA00F8FE40 /* MCSliceLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCSliceLayer.h; sourceTree = "<group>"; };
+		8F0514881B4A8ECA00F8FE40 /* MCSliceLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCSliceLayer.m; sourceTree = "<group>"; };
+		8F0514891B4A8ECA00F8FE40 /* MCUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCUtil.h; sourceTree = "<group>"; };
+		8F05148A1B4A8ECA00F8FE40 /* MCUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCUtil.m; sourceTree = "<group>"; };
 		8F79BE461B47C13500F9EF5F /* iCamel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCamel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F79BE491B47C13500F9EF5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8F79BE4B1B47C13500F9EF5F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8F79BE4E1B47C13500F9EF5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8F79BE501B47C13500F9EF5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F79BE531B47C13500F9EF5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +73,21 @@
 		8F79BE651B47C13500F9EF5F /* iCamelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iCamelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F79BE691B47C13500F9EF5F /* iCamelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iCamelUITests.swift; sourceTree = "<group>"; };
 		8F79BE6B1B47C13500F9EF5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F79BE771B47C4E500F9EF5F /* AttendanceOverView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttendanceOverView.swift; sourceTree = "<group>"; };
+		8F79BE791B47C7E400F9EF5F /* Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Login.swift; path = ../Login.swift; sourceTree = "<group>"; };
+		8F7DD8D21B48049D0076B6E4 /* AttendanceCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttendanceCell.swift; sourceTree = "<group>"; };
+		8F7DD8D51B4812090076B6E4 /* evarsity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = evarsity.swift; sourceTree = "<group>"; };
+		8FC2E3261B493E6100A632BE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8FC2E3281B493E6E00A632BE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8FC2E32A1B493E7A00A632BE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8FC2E32C1B493E8300A632BE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		8FC2E32F1B493F3700A632BE /* iCamel-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iCamel-Bridging-Header.h"; sourceTree = "<group>"; };
+		8FC2E3301B493F3800A632BE /* FeHourGlass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeHourGlass.m; sourceTree = "<group>"; };
+		8FC2E3321B493F4600A632BE /* FeHourGlass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeHourGlass.h; sourceTree = "<group>"; };
+		8FC2E3331B493F6600A632BE /* UIColor+flat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+flat.m"; sourceTree = "<group>"; };
+		8FC2E3351B493F7100A632BE /* UIColor+flat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+flat.h"; sourceTree = "<group>"; };
+		8FC2E3361B493F9400A632BE /* FXBlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXBlurView.m; sourceTree = "<group>"; };
+		8FC2E3381B493F9E00A632BE /* FXBlurView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FXBlurView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +95,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FC2E32D1B493E8300A632BE /* QuartzCore.framework in Frameworks */,
+				8FC2E32B1B493E7A00A632BE /* CoreGraphics.framework in Frameworks */,
+				8FC2E3291B493E6E00A632BE /* UIKit.framework in Frameworks */,
+				8FC2E3271B493E6100A632BE /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +119,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8F05147E1B4A8E4D00F8FE40 /* Progress Bar src */ = {
+			isa = PBXGroup;
+			children = (
+				8F05147F1B4A8ECA00F8FE40 /* MCCore.h */,
+				8F0514801B4A8ECA00F8FE40 /* MCNewCustomLayer.h */,
+				8F0514811B4A8ECA00F8FE40 /* MCNewCustomLayer.m */,
+				8F0514821B4A8ECA00F8FE40 /* MCNewCustomLayeredView.h */,
+				8F0514831B4A8ECA00F8FE40 /* MCNewCustomLayeredView.m */,
+				8F0514841B4A8ECA00F8FE40 /* MCNewCustomLayeredView+MCCustomLayeredViewSubclass.h */,
+				8F0514851B4A8ECA00F8FE40 /* MCPercentageDoughnutView.h */,
+				8F0514861B4A8ECA00F8FE40 /* MCPercentageDoughnutView.m */,
+				8F0514871B4A8ECA00F8FE40 /* MCSliceLayer.h */,
+				8F0514881B4A8ECA00F8FE40 /* MCSliceLayer.m */,
+				8F0514891B4A8ECA00F8FE40 /* MCUtil.h */,
+				8F05148A1B4A8ECA00F8FE40 /* MCUtil.m */,
+			);
+			name = "Progress Bar src";
+			sourceTree = "<group>";
+		};
 		8F79BE3D1B47C13500F9EF5F = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +145,7 @@
 				8F79BE5D1B47C13500F9EF5F /* iCamelTests */,
 				8F79BE681B47C13500F9EF5F /* iCamelUITests */,
 				8F79BE471B47C13500F9EF5F /* Products */,
+				8FC2E32E1B493E8C00A632BE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,7 +163,12 @@
 			isa = PBXGroup;
 			children = (
 				8F79BE491B47C13500F9EF5F /* AppDelegate.swift */,
-				8F79BE4B1B47C13500F9EF5F /* ViewController.swift */,
+				8FC2E32F1B493F3700A632BE /* iCamel-Bridging-Header.h */,
+				8F05147E1B4A8E4D00F8FE40 /* Progress Bar src */,
+				8FE8F7451B4822C800CEBAAD /* Spinner */,
+				8F7DD8D41B4811B20076B6E4 /* Modal */,
+				8F7DD8D01B4800A70076B6E4 /* AttendanceOverView Screen */,
+				8F7DD8D11B4802FB0076B6E4 /* Login Screen */,
 				8F79BE4D1B47C13500F9EF5F /* Main.storyboard */,
 				8F79BE501B47C13500F9EF5F /* Assets.xcassets */,
 				8F79BE521B47C13500F9EF5F /* LaunchScreen.storyboard */,
@@ -123,6 +193,79 @@
 				8F79BE6B1B47C13500F9EF5F /* Info.plist */,
 			);
 			path = iCamelUITests;
+			sourceTree = "<group>";
+		};
+		8F7DD8D01B4800A70076B6E4 /* AttendanceOverView Screen */ = {
+			isa = PBXGroup;
+			children = (
+				8F79BE771B47C4E500F9EF5F /* AttendanceOverView.swift */,
+				8F7DD8D21B48049D0076B6E4 /* AttendanceCell.swift */,
+			);
+			name = "AttendanceOverView Screen";
+			sourceTree = "<group>";
+		};
+		8F7DD8D11B4802FB0076B6E4 /* Login Screen */ = {
+			isa = PBXGroup;
+			children = (
+				8F79BE791B47C7E400F9EF5F /* Login.swift */,
+			);
+			name = "Login Screen";
+			sourceTree = "<group>";
+		};
+		8F7DD8D41B4811B20076B6E4 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				8F7DD8D51B4812090076B6E4 /* evarsity.swift */,
+			);
+			name = Modal;
+			sourceTree = "<group>";
+		};
+		8FC2E32E1B493E8C00A632BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8FC2E32C1B493E8300A632BE /* QuartzCore.framework */,
+				8FC2E32A1B493E7A00A632BE /* CoreGraphics.framework */,
+				8FC2E3281B493E6E00A632BE /* UIKit.framework */,
+				8FC2E3261B493E6100A632BE /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8FC2E3391B493FA800A632BE /* Type */ = {
+			isa = PBXGroup;
+			children = (
+				8FC2E3301B493F3800A632BE /* FeHourGlass.m */,
+				8FC2E3321B493F4600A632BE /* FeHourGlass.h */,
+			);
+			name = Type;
+			sourceTree = "<group>";
+		};
+		8FC2E33A1B493FB700A632BE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8FC2E33B1B493FD300A632BE /* Blur */,
+				8FC2E3331B493F6600A632BE /* UIColor+flat.m */,
+				8FC2E3351B493F7100A632BE /* UIColor+flat.h */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		8FC2E33B1B493FD300A632BE /* Blur */ = {
+			isa = PBXGroup;
+			children = (
+				8FC2E3361B493F9400A632BE /* FXBlurView.m */,
+				8FC2E3381B493F9E00A632BE /* FXBlurView.h */,
+			);
+			name = Blur;
+			sourceTree = "<group>";
+		};
+		8FE8F7451B4822C800CEBAAD /* Spinner */ = {
+			isa = PBXGroup;
+			children = (
+				8FC2E33A1B493FB700A632BE /* Resources */,
+				8FC2E3391B493FA800A632BE /* Type */,
+			);
+			name = Spinner;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,6 +330,10 @@
 		8F79BE3E1B47C13500F9EF5F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					New,
+				);
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Sayan Das";
 				TargetAttributes = {
@@ -255,7 +402,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F79BE4C1B47C13500F9EF5F /* ViewController.swift in Sources */,
+				8FC2E3341B493F6600A632BE /* UIColor+flat.m in Sources */,
+				8F05148C1B4A8ECA00F8FE40 /* MCNewCustomLayeredView.m in Sources */,
+				8F05148E1B4A8ECA00F8FE40 /* MCSliceLayer.m in Sources */,
+				8F79BE7A1B47C7E400F9EF5F /* Login.swift in Sources */,
+				8F05148B1B4A8ECA00F8FE40 /* MCNewCustomLayer.m in Sources */,
+				8F05148D1B4A8ECA00F8FE40 /* MCPercentageDoughnutView.m in Sources */,
+				8FC2E3311B493F3800A632BE /* FeHourGlass.m in Sources */,
+				8F79BE781B47C4E500F9EF5F /* AttendanceOverView.swift in Sources */,
+				8F7DD8D61B4812090076B6E4 /* evarsity.swift in Sources */,
+				8FC2E3371B493F9400A632BE /* FXBlurView.m in Sources */,
+				8F05148F1B4A8ECA00F8FE40 /* MCUtil.m in Sources */,
+				8F7DD8D31B48049D0076B6E4 /* AttendanceCell.swift in Sources */,
 				8F79BE4A1B47C13500F9EF5F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -398,10 +556,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = iCamel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "SudoCrawler.srm.Sayan-Das.iCamel";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "iCamel/iCamel-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -409,10 +571,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = iCamel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "SudoCrawler.srm.Sayan-Das.iCamel";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "iCamel/iCamel-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -483,6 +648,7 @@
 				8F79BE701B47C13500F9EF5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8F79BE711B47C13500F9EF5F /* Build configuration list for PBXNativeTarget "iCamelTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +657,7 @@
 				8F79BE731B47C13500F9EF5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8F79BE741B47C13500F9EF5F /* Build configuration list for PBXNativeTarget "iCamelUITests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +666,7 @@
 				8F79BE761B47C13500F9EF5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
