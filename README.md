@@ -4,7 +4,7 @@
 iOS application for all SRMites which fetches data from evarsity and shows attendance details.
 Made on Xcode 7 with Swift 2.0. Deployed for iOS 9.0.
 
-    ![GIF](AttendanceMD.gif)
+![GIF](AttendanceMD.gif)
 
 ### Upcomming Features
 
