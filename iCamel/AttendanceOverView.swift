@@ -30,6 +30,8 @@ class AttendanceOverView: UIViewController {
         evarsityDetails = evarsity(ID: UserDetails["RegisterNo"] as! String, Password: UserDetails["Password"] as! String)
         AttendanceDetails = evarsityDetails.fetchAndReturnData()
         
+        
+        
         NSLog("Sucessfully retrieved data from Evarsity.")
     }
     
@@ -40,7 +42,7 @@ class AttendanceOverView: UIViewController {
     
 }
 
-
+//MARK:-  UICIllectionView DATASOURCE extension
 extension AttendanceOverView: UICollectionViewDataSource{
     
     func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {

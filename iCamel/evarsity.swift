@@ -16,6 +16,7 @@ class evarsity {
     var AttendanceDict = [AttendanceDetails]()
     var gotData: Bool!
     
+    // MARK:-  Main data structure
     struct AttendanceDetails {
         var Subject: String
         var Max_Hours: String
@@ -38,25 +39,32 @@ class evarsity {
         }
     }
     
+    
+    //  INITIALIZE WITH ID AND PASSWORD
     init(ID: String, Password: String){
         self.ID = ID
         self.Password = Password
         gotData = false
     }
     
+    //  BLANK INITIALIZATION
     init(){
         self.ID = ""
         self.Password = ""
         gotData = false
     }
     
+    
+    //MARK:- Function to be called from AttendanceOverView.swift
     func fetchAndReturnData() -> [AttendanceDetails]{
         createHTTPRequest()
         
+        //  WAIT FOR gotData TO BE TRUE
         while(!gotData){}                           //Update this
         return self.AttendanceDict
     }
     
+    //MARK:- create NSURL with ID and Password
     func createNSURL() -> NSURL{
         let parentLink: String = "http://evarsity.srmuniv.ac.in/srmswi/usermanager/youLogin.jsp"
         let parameters: String = "?txtRegNumber=iamalsouser&txtPwd=thanksandregards&txtSN=\(ID)&txtPD=\(Password)&txtPA=1"
@@ -64,6 +72,7 @@ class evarsity {
         return NSURL(string: parentLink + parameters)!
     }
     
+    //MARK:- Create HTTP request and create NSURLSession to fetch AJAX attendance table
     func createHTTPRequest(){
         let request = NSMutableURLRequest(URL: createNSURL())
         request.HTTPMethod = "POST"
@@ -78,11 +87,20 @@ class evarsity {
             self.attendanceDataHTML = dataSTR as! String
             self.parseData()
             self.gotData = true
+            
+            self.saveToDisk()
         })
         task?.resume()
         
     }
     
+    //MARK:- Save the file to disk for the offline support
+    func saveToDisk(){
+        
+    }
+    
+    
+    //MARK:- Parse the table to AttendanceDict
     func parseData(){
         
         trimTableData()
@@ -114,6 +132,7 @@ class evarsity {
         
     }
     
+    //MARK:-  get the text details from the table row
     func getTextFromTR(TR: String) -> String{
         let mutableTR = NSMutableString(string: TR)
         
@@ -130,6 +149,7 @@ class evarsity {
         return mutableTR as String
     }
     
+    //MARK:- Get the first table tag
     func trimTableData(){
         let mutableAttendanceDataHTML = NSMutableString(string: attendanceDataHTML)
         var length = mutableAttendanceDataHTML.length
