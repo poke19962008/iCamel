@@ -19,7 +19,7 @@ class AttendanceOverView: UIViewController {
     var AttendanceDetails: [evarsity.AttendanceDetails]!
     var evarsityDetails: evarsity = evarsity()
     
-    //MARK :-  Cell ID
+    //MARK :-  Cell identifier
     private struct Storyboard{
         static let CellIndentifier = "AttendenceCell"
     }
