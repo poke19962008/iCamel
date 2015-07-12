@@ -5,8 +5,9 @@ iOS application for all SRMites which fetches data from evarsity and shows atten
 Made on Xcode 7 with Swift 2.0. Deployed for iOS 9.0.
 
 ### Screenshots
-<!--![GIF](AttendanceHD.gif)-->
-| ![image] (https://github.com/poke19962008/iCamel/blob/master/ScreenShot1.png) | hello |
+
+![image] (https://github.com/poke19962008/iCamel/blob/master/ScreenShot1.png) 
+![GIF](AttendanceHD.gif)
 
 ### Upcoming Features
 
