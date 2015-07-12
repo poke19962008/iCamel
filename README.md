@@ -17,4 +17,4 @@ Made on Xcode 7 with Swift 2.0. Deployed for iOS 9.0.
 - Offline support.
 - ~~Update UI for login screen.~~
 
-**NOTE:** Any changes are most welcomed.
+**NOTE:** Any changes are most welcome.
