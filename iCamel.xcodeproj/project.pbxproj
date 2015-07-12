@@ -12,6 +12,7 @@
 		8F05148D1B4A8ECA00F8FE40 /* MCPercentageDoughnutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0514861B4A8ECA00F8FE40 /* MCPercentageDoughnutView.m */; };
 		8F05148E1B4A8ECA00F8FE40 /* MCSliceLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0514881B4A8ECA00F8FE40 /* MCSliceLayer.m */; };
 		8F05148F1B4A8ECA00F8FE40 /* MCUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F05148A1B4A8ECA00F8FE40 /* MCUtil.m */; };
+		8F7963061B5249D1008D1D99 /* AYVibrantButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7963051B5249D1008D1D99 /* AYVibrantButton.m */; };
 		8F79BE4A1B47C13500F9EF5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F79BE491B47C13500F9EF5F /* AppDelegate.swift */; };
 		8F79BE4F1B47C13500F9EF5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F79BE4D1B47C13500F9EF5F /* Main.storyboard */; };
 		8F79BE511B47C13500F9EF5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F79BE501B47C13500F9EF5F /* Assets.xcassets */; };
@@ -61,6 +62,8 @@
 		8F0514881B4A8ECA00F8FE40 /* MCSliceLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCSliceLayer.m; sourceTree = "<group>"; };
 		8F0514891B4A8ECA00F8FE40 /* MCUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCUtil.h; sourceTree = "<group>"; };
 		8F05148A1B4A8ECA00F8FE40 /* MCUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCUtil.m; sourceTree = "<group>"; };
+		8F7963041B5249D1008D1D99 /* AYVibrantButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AYVibrantButton.h; sourceTree = "<group>"; };
+		8F7963051B5249D1008D1D99 /* AYVibrantButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AYVibrantButton.m; sourceTree = "<group>"; };
 		8F79BE461B47C13500F9EF5F /* iCamel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCamel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F79BE491B47C13500F9EF5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8F79BE4E1B47C13500F9EF5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -138,6 +141,15 @@
 			name = "Progress Bar src";
 			sourceTree = "<group>";
 		};
+		8F7963071B5249DB008D1D99 /* AYVibrantButton */ = {
+			isa = PBXGroup;
+			children = (
+				8F7963041B5249D1008D1D99 /* AYVibrantButton.h */,
+				8F7963051B5249D1008D1D99 /* AYVibrantButton.m */,
+			);
+			name = AYVibrantButton;
+			sourceTree = "<group>";
+		};
 		8F79BE3D1B47C13500F9EF5F = {
 			isa = PBXGroup;
 			children = (
@@ -164,6 +176,7 @@
 			children = (
 				8F79BE491B47C13500F9EF5F /* AppDelegate.swift */,
 				8FC2E32F1B493F3700A632BE /* iCamel-Bridging-Header.h */,
+				8F7963071B5249DB008D1D99 /* AYVibrantButton */,
 				8F05147E1B4A8E4D00F8FE40 /* Progress Bar src */,
 				8FE8F7451B4822C800CEBAAD /* Spinner */,
 				8F7DD8D41B4811B20076B6E4 /* Modal */,
@@ -339,6 +352,7 @@
 				TargetAttributes = {
 					8F79BE451B47C13500F9EF5F = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 2ZT8WHX487;
 					};
 					8F79BE591B47C13500F9EF5F = {
 						CreatedOnToolsVersion = 7.0;
@@ -402,6 +416,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F7963061B5249D1008D1D99 /* AYVibrantButton.m in Sources */,
 				8FC2E3341B493F6600A632BE /* UIColor+flat.m in Sources */,
 				8F05148C1B4A8ECA00F8FE40 /* MCNewCustomLayeredView.m in Sources */,
 				8F05148E1B4A8ECA00F8FE40 /* MCSliceLayer.m in Sources */,
@@ -557,11 +572,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = iCamel/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "SudoCrawler.srm.Sayan-Das.iCamel";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "iCamel/iCamel-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -572,11 +590,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = iCamel/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "SudoCrawler.srm.Sayan-Das.iCamel";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "iCamel/iCamel-Bridging-Header.h";
 			};
 			name = Release;

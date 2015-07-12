@@ -10,12 +10,28 @@ import UIKit
 
 class Login: UIViewController {
 
+    @IBOutlet weak var viewLabels: UIView!
     @IBOutlet weak var UserName: UITextField!
     @IBOutlet weak var Password: UITextField!
-    
+    @IBOutlet weak var dividerView: UIView!
+    @IBOutlet weak var LoginView: UIView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
+        let invertButton = AYVibrantButton(frame: CGRect(x: 20, y: 95, width: 120, height: 30), style: AYVibrantButtonStyleInvert)
+        invertButton.vibrancyEffect = UIVibrancyEffect(forBlurEffect: UIBlurEffect(style: UIBlurEffectStyle.ExtraLight))
+        invertButton.text = "Log In"
+        invertButton.font = UIFont.systemFontOfSize(18.0)
+        invertButton.center = LoginView.center
+        invertButton.center.y = UserName.center.y
+        LoginView.addSubview(invertButton)
+        let pressGesture = UITapGestureRecognizer(target: self, action: "Submit")
+        
+        invertButton.addGestureRecognizer(pressGesture)
+
+        
         
         // NSUser details for the username and password of the user
         if NSUserDefaults.standardUserDefaults().objectForKey("UserDetails") != nil {
@@ -23,6 +39,26 @@ class Login: UIViewController {
             startSpinner()
         }
         
+        //Start initial animations
+        startAnimations()
+        
+    }
+    
+    
+    
+    func startAnimations(){
+        
+        UserName.center.y = self.view.frame.height + 30
+        Password.center.y = self.view.frame.height + 30
+        dividerView.alpha = 0.0
+        
+        UIView.animateWithDuration(1.0, delay: 0, usingSpringWithDamping: 2.0, initialSpringVelocity: 6.5, options: UIViewAnimationOptions.TransitionNone, animations: ({
+            self.UserName.center.y = self.view.frame.height / 2 - 19
+            self.Password.center.y = self.view.frame.height / 2 + 19
+            self.dividerView.alpha = 0.5
+        
+        
+        }), completion: nil)
     }
     
     override func viewDidAppear(animated: Bool) {
@@ -37,7 +73,7 @@ class Login: UIViewController {
         }
     }
   
-    //MARK :- Set Status Bar Style as white
+    //MARK :- Set Status Bar Style as Light
     override func preferredStatusBarStyle() -> UIStatusBarStyle {
         return UIStatusBarStyle.LightContent
     }
@@ -57,7 +93,7 @@ class Login: UIViewController {
         self.view.addSubview(spinnerView)
     }
 
-    @IBAction func Submit(sender: AnyObject) {
+    func Submit() {
         let ID = UserName.text
         let PD = Password.text
         

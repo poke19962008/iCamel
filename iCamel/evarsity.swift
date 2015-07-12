@@ -87,8 +87,8 @@ class evarsity {
             self.attendanceDataHTML = dataSTR as! String
             self.parseData()
             self.gotData = true
-            
-            self.saveToDisk()
+            print(dataSTR)
+//            self.saveToDisk()
         })
         task?.resume()
         
