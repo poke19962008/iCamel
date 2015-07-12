@@ -6,7 +6,7 @@ Made on Xcode 7 with Swift 2.0. Deployed for iOS 9.0.
 
 ![GIF](AttendanceHD.gif)
 
-### Upcomming Features
+### Upcoming Features
 
 - Will show notification if your attendance is going low.
 - Update the doughnut with colors depending upon the attendance.
